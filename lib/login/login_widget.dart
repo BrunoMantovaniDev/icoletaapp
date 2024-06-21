@@ -6,7 +6,6 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/main.dart';
 import '/register/register_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'login_model.dart';
 export 'login_model.dart';
 
@@ -480,86 +479,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                   ),
                 ],
               ),
-            ),
-          ),
-          Align(
-            alignment: const AlignmentDirectional(0.0, 0.0),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Align(
-                  alignment: const AlignmentDirectional(0.0, -1.0),
-                  child: SizedBox(
-                    width: 230.0,
-                    height: 44.0,
-                    child: Stack(
-                      alignment: const AlignmentDirectional(0.0, 0.0),
-                      children: [
-                        Align(
-                          alignment: const AlignmentDirectional(0.0, 0.0),
-                          child: FFButtonWidget(
-                            onPressed: () async {
-                              final user =
-                                  await authManager.signInWithGoogle(context);
-                              if (user == null) {
-                                return;
-                              }
-                              Navigator.pushAndRemoveUntil(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      const NavBarPage(initialPage: 'ConsultaColeta'),
-                                ),
-                                (r) => false,
-                              );
-                            },
-                            text: 'Entrar com uma conta Google',
-                            icon: const Icon(
-                              Icons.add,
-                              color: Colors.transparent,
-                              size: 20.0,
-                            ),
-                            options: FFButtonOptions(
-                              width: 250.0,
-                              height: 40.0,
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 0.0, 0.0),
-                              iconPadding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 8.0, 0.0),
-                              color: Colors.white,
-                              textStyle: GoogleFonts.getFont(
-                                'Roboto',
-                                color: FlutterFlowTheme.of(context).alternate,
-                                fontSize: 17.0,
-                              ),
-                              elevation: 4.0,
-                              borderSide: const BorderSide(
-                                color: Colors.transparent,
-                                width: 0.0,
-                              ),
-                            ),
-                          ),
-                        ),
-                        Align(
-                          alignment: const AlignmentDirectional(-0.83, 0.0),
-                          child: Container(
-                            width: 22.0,
-                            height: 22.0,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: Image.network(
-                              'https://i0.wp.com/nanophorm.com/wp-content/uploads/2018/04/google-logo-icon-PNG-Transparent-Background.png?w=1000&ssl=1',
-                              fit: BoxFit.contain,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
             ),
           ),
         ],
