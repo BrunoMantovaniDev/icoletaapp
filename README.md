@@ -8,7 +8,8 @@
 
  • Informações Atualizadas: Os dados sobre horários, dias e frequências de coleta são atualizados diretamente do site da CMTU (Companhia Municipal de Trânsito e Urbanização) de Londrina.
 Facilidade de Acesso: O app facilita a busca por essas informações, tornando o processo mais intuitivo em comparação com a navegação no site da CMTU.
-Benefícios:
+
+# Benefícios:
 
 • Economia de Tempo: Os usuários não precisam mais perder tempo procurando informações no site da CMTU.
 
