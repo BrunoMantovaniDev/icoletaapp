@@ -1,11 +1,11 @@
-### iColeta
+## iColeta
 
 ## Objetivo:
 
-# Auxiliar a Comunidade: O iColeta tem como principal objetivo ajudar os moradores de Londrina a verificar os horários de coleta de lixo de forma fácil e rápida.
+Auxiliar a Comunidade: O iColeta tem como principal objetivo ajudar os moradores de Londrina a verificar os horários de coleta de lixo de forma fácil e rápida.
 Características:
 
-# Informações Atualizadas: Os dados sobre horários, dias e frequências de coleta são atualizados diretamente do site da CMTU (Companhia Municipal de Trânsito e Urbanização) de Londrina.
+ Informações Atualizadas: Os dados sobre horários, dias e frequências de coleta são atualizados diretamente do site da CMTU (Companhia Municipal de Trânsito e Urbanização) de Londrina.
 Facilidade de Acesso: O app facilita a busca por essas informações, tornando o processo mais intuitivo em comparação com a navegação no site da CMTU.
 Benefícios:
 
