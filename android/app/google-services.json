@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "588502274309",
+    "project_id": "icoleta-c098f",
+    "storage_bucket": "icoleta-c098f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588502274309:android:fbef1cd7e3445d2e33676c",
+        "android_client_info": {
+          "package_name": "ColB.Do"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588502274309-ftqjdr3ohc5vojmcva3ur070166n0om7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ColB.Do",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "588502274309-gcpg2u5gpbepkmr4ga1smuppmnv346mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ColB.Do",
+            "certificate_hash": "3b20871a41b15be9d84362a0ad9d46842a13a598"
+          }
+        },
+        {
+          "client_id": "588502274309-iie334rmnud4dd4qpjibn746gilnrpss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef7Im4QQe-gTqG6qRDPTSOCv5a6GLMus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588502274309-4im96fgqfja9manq56bngoi3debd51s4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588502274309-ihkgi2thhi89hhsf3hf57dglrm13jj7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ColB.Do"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588502274309:android:8b6e0be3884b629f33676c",
+        "android_client_info": {
+          "package_name": "icoleta.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588502274309-edotkscks509la24h8mm1b4dcdv0e7ga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "icoleta.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "588502274309-iie334rmnud4dd4qpjibn746gilnrpss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef7Im4QQe-gTqG6qRDPTSOCv5a6GLMus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588502274309-4im96fgqfja9manq56bngoi3debd51s4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588502274309-ihkgi2thhi89hhsf3hf57dglrm13jj7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ColB.Do"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
